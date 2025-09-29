@@ -14,9 +14,9 @@ int main() {
       float w= ((x+y)/2)*z ;
      
       std::cout <<"answer="<<w<<" "<<"float"<<"\n";
-      std::cout<<"float"<<"\n"<<"min="<<FLT_MIN<<" "<<"max="<<" "<<FLT_MAX<<" "<<"size="<<"32"<<"\n";
-      std::cout<<"int"<<"\n"<<"min="<<INT_MIN<<" "<<"max="<<INT_MAX<<" "<<"size="<<"16"<<"\n";
-      std::cout<<"short"<<"\n"<<"min="<<SHRT_MIN<<" "<<"max="<<SHRT_MAX<<" "<<"size="<<"16";
+      std::cout<<"float: min="<<std::numeric_limits<float>::min()<<" "<<"max="<<std::numeric_limits<float>::max()<<" "<<"size="<<"32"<<"\n";
+      std::cout<<"int: min="<<std::numeric_limits<int>::min()<<" "<<"max="<<std::numeric_limits<int>::max()<<" "<<"size="<<"16"<<"\n";
+      std::cout<<"short: min="<<std::numeric_limits<short>::min()<<" "<<"max="<<std::numeric_limits<short>::max()<<" "<<"size="<<"16";
 
 
       
